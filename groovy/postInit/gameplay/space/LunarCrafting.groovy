@@ -491,7 +491,7 @@ SOLAR_FURNACE.recipeBuilder()
 
 SOLAR_FURNACE.recipeBuilder()
     .inputs(metaitem("dustHematite") * 5)
-    .fluidInputs(fluid('hydrogen') * 6)
+    .fluidInputs(fluid('hydrogen') * 6000)
     .outputs(metaitem('dustIron') * 2)
     .fluidOutputs(fluid("dense_steam") * 3000)
     .EUt(8000)
