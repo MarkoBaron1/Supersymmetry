@@ -1801,6 +1801,7 @@ DT.recipeBuilder()
     .fluidOutputs(fluid('hydrazine') * 1000)
     .fluidOutputs(fluid('water') * 4000)
     .fluidOutputs(fluid('ammonia') * 2000)
+    .fluidOutputs(fluid('acetamide_solution') * 1000
     .duration(300)
     .EUt(VA[LV])
     .buildAndRegister()
